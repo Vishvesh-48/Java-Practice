@@ -1,0 +1,11 @@
+package com.abstractTest;
+
+public class B extends A{
+	
+	@Override
+	public void m2() {
+	 System.out.println("override abstract method complite implimate");
+		
+	}
+
+}

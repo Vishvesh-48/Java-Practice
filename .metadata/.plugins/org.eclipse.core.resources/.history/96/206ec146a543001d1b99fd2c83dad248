@@ -1,0 +1,18 @@
+package com.accessmodifier2;
+
+import com.accessmodifier.protectedTest;
+
+public class Test extends protectedTest {
+	
+	public static void main(String[] args) {
+		
+		protectedTest p = new protectedTest();
+		
+		Test t = new Test();
+		System.out.println(t.ui);
+		System.out.println(t.uname);
+		
+		
+	}
+
+}

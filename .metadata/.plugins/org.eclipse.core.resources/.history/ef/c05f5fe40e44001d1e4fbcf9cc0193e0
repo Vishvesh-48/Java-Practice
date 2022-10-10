@@ -1,0 +1,14 @@
+package com.superthiskeywords;
+
+public class B extends A {
+	
+    public int j = 200;
+    
+    public 
+    
+    public void m1() {
+    	
+    	System.out.println("m2 method of child class--");
+    }
+
+}

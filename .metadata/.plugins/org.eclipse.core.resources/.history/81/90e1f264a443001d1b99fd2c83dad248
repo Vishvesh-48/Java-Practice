@@ -1,0 +1,14 @@
+package com.accessmodifier2;
+
+import com.accessmodifier.protectedTest;
+
+public class Test extends protectedTest {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

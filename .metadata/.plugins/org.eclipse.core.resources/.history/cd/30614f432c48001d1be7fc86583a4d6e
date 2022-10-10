@@ -1,0 +1,39 @@
+package com.polymorphismtest;
+
+public class MethodOverloading {
+	
+	//we have to overloading of any method so this overload method has same method name, 
+	//parameter as change any access modifier decleard all process of overloading in same class only
+	public void m1(int i) {
+		
+		System.out.println("--m1 method of methodoverloding--");
+	}
+
+	
+	public void m1(String s,int a) {
+		
+		System.out.println("m1 second method of overloding--");
+	}
+
+	public void m1(Object a) {
+		
+		System.out.println("object class of m1 method--");
+	}
+	
+//	public void m1(String a) {
+//		
+//		System.out.println("String class of m1 method");
+//	}
+//	
+	
+	
+	public static void main(String[] args) {
+		
+		MethodOverloading m = new MethodOverloading();
+		
+		m.m1(null);
+	}
+	
+
+}
+

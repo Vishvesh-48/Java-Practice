@@ -1,0 +1,25 @@
+package com.superthiskeywords;
+
+public class B extends A {
+	
+    public int j = 200;
+    
+    public B() {
+    	
+    	System.out.println("defalt contru of child class --");
+    }
+    
+     
+    public void m2() {
+    	System.out.println("m2 method of child class--");
+    }
+    
+    public static void main(String[] args) {
+		
+    	B b = new B();
+    	
+	}
+    
+    
+
+}

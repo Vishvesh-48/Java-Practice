@@ -1,0 +1,42 @@
+package com.polymorphismtest;
+
+public class MethodOverloading {
+
+	//-	method overloading always happen in the same class.
+	//-	access modifiers doesn’t matter in the method overloading.
+	//-	return types doesn’t matter in the method overloading
+	//-	we can overload main, static, final and private method in java.
+	public static void m1(int i) {
+
+		System.out.println("--m1 method of methodoverloding--");
+	}
+
+	public void m1(String s, int a) {
+
+		System.out.println("m1 second method of overloding--");
+	}
+
+	public void m1(Object a) {
+
+		System.out.println("object class of m1 method--");
+	}
+	public int m1(String a) {		
+	System.out.println("String class of m1 method");
+	    return 10;
+	}
+	public String m1() {
+		
+		return "vishvesh";
+	}
+	
+	
+
+	public static void main(String[] args) {
+
+		MethodOverloading m = new MethodOverloading();
+
+		m.m1();
+		m2.m1(10);
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.statickeywords;
+
+public class Student {
+	
+	int id ;
+	String name ;
+    static String collegename ="VBKolte";
+	
+	public static void main(String[] args) {
+		
+		A a = new A();
+		System.out.println(a.id);
+		System.out.println(a.name);
+		System.out.println(a.collegename);
+		
+		A a1 = new A();
+		System.out.println(a1.id);
+		System.out.println(a1.name);
+		a1.collegename
+		
+		
+	}
+
+}

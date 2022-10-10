@@ -1,0 +1,18 @@
+package com.statickeywords;
+
+public class Demo {
+	
+	int id ;
+	String name;
+	static String college = "VIT";
+	
+	public static void main(String[] args) {
+		Demo d = new Demo();
+		
+		d.id = 111;
+		d.name = "prasad";
+		System.out.println(college);
+	}
+	
+
+}

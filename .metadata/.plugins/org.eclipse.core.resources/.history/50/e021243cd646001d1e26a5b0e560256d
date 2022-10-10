@@ -1,0 +1,16 @@
+package com.paramter;
+
+public class Demo {
+	
+  
+	public void m1() {
+		
+		System.out.println("m1 method of Demo class--");
+	}
+
+	public void m2(int i) {
+		
+		System.out.println("single parameter method --");
+		System.out.println(i);
+	}
+}

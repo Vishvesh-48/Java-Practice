@@ -1,0 +1,16 @@
+package com.abstractTest;
+
+public class B extends A{
+	
+	@Override
+	public void m1() {
+		System.out.println("complite impliment m1 method in child class-");
+		
+	}
+
+	public static void main(String[] args) {
+		
+		A a = new B(); // indirect object (loose coupling)
+		a.m1();
+	}
+}

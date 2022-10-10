@@ -1,0 +1,9 @@
+package methodoverride;
+
+public class AA {
+    
+	public void m1() {
+		
+		System.out.println("m1 method of AA class");
+	}
+}

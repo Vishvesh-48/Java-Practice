@@ -1,0 +1,25 @@
+package com.polymorphismtest;
+
+public class MethodOverloading {
+	
+	public void m1(int i) {
+		
+		System.out.println("--m1 method of methodoverloding--");
+	}
+
+	
+	public void m1(String s,int a) {
+		
+		System.out.println("m1 second method of overloding--");
+	}
+
+	public static void main(String[] args) {
+		
+		MethodOverloading m = new MethodOverloading();
+		
+		m.m1(10);
+	}
+	
+
+}
+

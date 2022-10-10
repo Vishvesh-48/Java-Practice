@@ -1,0 +1,33 @@
+package com.accessmodifier;
+
+public class Main {
+	
+	public static void main(String[] args) {
+
+// PrivateTest class object  not be access inside the main because of that default constructor
+// is private declared and all variable and method is private inside so not access 		
+		
+//	   PrivateTest p = new PrivateTest();
+//		
+//		System.out.println(p.a);
+//        System.out.println(p.name);
+//        
+// DefaultTest class variable and method access inside class and same package         
+//		DefaultTest a = new DefaultTest();
+//		a.m1();
+//		System.out.println(a.name);
+		
+// protected data member access within class and same package outside the package but parent 
+		//child relation is compulsory within the class and access all the data member and method 
+		//by using child class object creation.
+		protectedTest p = new protectedTest();
+		System.out.println(p.ui);
+		System.out.println(p.uname);
+		p.m1();
+		
+	
+		
+		
+	}
+
+}

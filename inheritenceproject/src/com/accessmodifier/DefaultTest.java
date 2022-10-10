@@ -1,0 +1,23 @@
+package com.accessmodifier;
+
+public class DefaultTest {
+	
+	 int i = 10;
+    String name = "kolte";
+    
+    void m1 () {                // method declared as default access modifier and variable also
+    	
+    	System.out.println("m1 method ---");
+    }
+	
+	
+	
+	public static void main(String[] args) {
+		
+		DefaultTest a = new DefaultTest();
+		a.m1();
+		System.out.println(a.i);
+		System.out.println(a.name);
+		
+	}
+}

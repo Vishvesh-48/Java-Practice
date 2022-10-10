@@ -1,0 +1,20 @@
+package com.parametercontsructor;
+
+public class Main {
+	
+	public Main() {
+		System.out.println("default constructor--");
+	}
+	
+	public Main(int i) {
+		System.out.println("Single parametr contruc--");
+	}
+	
+	public static void main(String[] args) {
+		Main m = new Main();
+		Main m1 = new Main(10);
+		
+	}
+	
+
+}

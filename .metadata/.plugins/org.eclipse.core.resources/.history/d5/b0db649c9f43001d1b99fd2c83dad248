@@ -1,0 +1,22 @@
+package com.accessmodifier;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		PrivateTest p = new PrivateTest();
+		
+		System.out.println(p.a);
+        System.out.println(p.name);
+        
+        
+//		DefaultTest a = new DefaultTest();
+//		a.m1();
+//		System.out.println(a.name);
+//		
+	
+		
+		
+	}
+
+}

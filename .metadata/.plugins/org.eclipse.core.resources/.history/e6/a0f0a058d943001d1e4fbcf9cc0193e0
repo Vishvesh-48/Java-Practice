@@ -1,0 +1,10 @@
+package com.statickeywords;
+
+public class Demo {
+	
+	int id ;
+	String name;
+	String college = "VIT";
+	
+
+}

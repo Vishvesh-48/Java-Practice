@@ -1,0 +1,17 @@
+package com.condition;
+
+import java.util.Scanner;
+
+public class IfCondition2 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("program start--");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter you %:-");
+		int per = sc.nextInt();
+	}
+
+}

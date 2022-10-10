@@ -1,0 +1,8 @@
+package com.accessmodifier;
+
+public class protectedTest {
+	
+	protected int i = 20;
+	protected String name = "vishvesh kolte";
+
+}

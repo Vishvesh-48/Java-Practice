@@ -1,0 +1,15 @@
+package com.paramterconstructor;
+
+public class Main {
+	
+	public Main() {
+		
+		System.out.println("Default Constructor--");
+	}
+	
+	public static void main(String[] args) {
+		
+		Main m = new Main();
+	}
+
+}

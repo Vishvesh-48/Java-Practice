@@ -1,0 +1,29 @@
+package com.abstractTest;
+
+public class B extends A{
+	
+	@Override
+	public void m1() {
+		System.out.println("complite impliment m1 method in child class-");
+		
+	}
+	
+	public void m3() {
+		System.out.println("m3 methood of child class-");
+	}
+
+	public static void main(String[] args) {
+	
+		//other class abstract method implement access inside the 
+		//another class by using indirect object
+		A a = new B(); // indirect object (loose coupling)
+		a.m1();
+		a.tyre();
+		
+		B b = new B(); // child class object
+		b.m1();
+		b.m3();
+		b.tyre();
+		
+	}
+}

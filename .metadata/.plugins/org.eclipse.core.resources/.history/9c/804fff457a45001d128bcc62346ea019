@@ -1,0 +1,10 @@
+package com.superthiskeywords;
+
+public class C {
+	
+	C(){
+		
+		System.out.println("default constructor of parent class--");
+	}
+
+}

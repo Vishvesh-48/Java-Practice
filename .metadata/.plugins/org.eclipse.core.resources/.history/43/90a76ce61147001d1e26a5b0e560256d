@@ -1,0 +1,13 @@
+package com.condition;
+
+public class ScannerTestMain {
+
+	public static void main(String[] args) {
+		System.out.println("program Start--");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+	}
+}

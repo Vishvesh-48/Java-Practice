@@ -1,0 +1,23 @@
+package com.accessmodifier2;
+
+import com.accessmodifier.DefaultTest;
+import com.accessmodifier.protectedTest;
+// protected access modifier access the data member and method access outside the package 
+// but parent child relation is compulsory (object create of child class 
+
+public class Test extends protectedTest {
+	
+	public static void main(String[] args) {
+		
+//		protectedTest p = new protectedTest();
+//		
+//		Test t = new Test();
+//		System.out.println(t.ui);
+//		System.out.println(t.uname);
+//		
+//		Default access modifier access outside the package 
+		DefaultTest d = new DefaultTest();
+		
+	}
+
+}

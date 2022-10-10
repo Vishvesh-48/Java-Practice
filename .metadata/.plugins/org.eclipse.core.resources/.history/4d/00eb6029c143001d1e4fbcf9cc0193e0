@@ -1,0 +1,20 @@
+package com.finalkeyword;
+
+public class Main extends A {
+	
+	public int m2() {
+		
+		int i = 10;
+		System.out.println(i);
+		
+		return i;
+	}
+	
+	public static void main(String[] args) {
+		
+		Main m = new Main();
+		
+		m.m2();
+	}
+
+}

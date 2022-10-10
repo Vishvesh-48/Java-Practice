@@ -1,0 +1,14 @@
+package com.statickeywords;
+
+public class A {
+	
+	int id = 100;
+	String name = "Nishant";
+    String collegename ="VBKolte";
+	
+	public A() {
+		
+		int 
+	}
+
+}

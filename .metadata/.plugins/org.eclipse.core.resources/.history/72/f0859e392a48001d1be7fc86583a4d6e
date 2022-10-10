@@ -1,0 +1,27 @@
+package com.polyoverriding;
+
+public class Child extends Parent {
+//
+@Override
+public void m1() {
+	
+System.out.println("m1 method override in child class--");
+}
+
+// can not change parameter always same 
+@Override
+	public void m2(int i) {
+	System.out.println("m2 override in child class--");
+	}
+
+//access modifier (change possible greater then parent class 
+// Declared but return type cant't be change in override 
+@Override
+	public int m3() {   
+		return 20;      
+	}
+
+
+
+	
+}

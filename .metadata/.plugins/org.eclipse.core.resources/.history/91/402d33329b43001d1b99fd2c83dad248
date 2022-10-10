@@ -1,0 +1,15 @@
+package com.access;
+
+public class DefaultTest {
+	
+	int i = 10;
+	String name = "kolte";
+	
+	
+	
+	public static void main(String[] args) {
+		
+		DefaultTest a = new DefaultTest();
+		
+	}
+}

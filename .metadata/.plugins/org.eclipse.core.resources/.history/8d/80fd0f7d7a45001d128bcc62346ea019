@@ -1,0 +1,10 @@
+package com.superthiskeywords;
+
+public class D extends C {
+	
+	D(){
+		
+		System.out.println("default constructor of D class--");
+	}
+
+}

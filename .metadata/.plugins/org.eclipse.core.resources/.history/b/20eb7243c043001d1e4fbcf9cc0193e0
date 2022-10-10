@@ -1,0 +1,10 @@
+package com.finalkeyword;
+
+public class Main {
+	
+	public int m2() {
+		
+		return 10;
+	}
+
+}

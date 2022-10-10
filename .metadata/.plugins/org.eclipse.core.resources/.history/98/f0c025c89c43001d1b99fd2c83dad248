@@ -1,0 +1,27 @@
+package com.access;
+
+public class PrivateTest { 
+	private int a = 10;
+	private String name = "vishvesh";
+	
+	private PrivateTest() {
+		
+	}
+	
+	private void m1() {
+		
+		System.out.println("m1 method of Private test class");
+	}
+	
+	public static void main(String[] args) {
+		
+		PrivateTest p = new PrivateTest();
+		System.out.println(p.a);
+		System.out.println(p.name);
+		p.m1();
+	}
+
+}
+//private access modifier is access only inside the class body not outside the class 
+// not create a object in another  class so first need to Default is decleard  in private 
+// 
